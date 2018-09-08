@@ -1,0 +1,191 @@
+body {
+  /* background-image: url("football_bg_2.jpg"); */
+  background-color: #ffffff;
+  margin: 0px;
+
+  padding: 0px;
+}
+.main {
+  padding: 16px;
+}
+.container {
+  background-color: #00ff87;
+}
+p {
+  font-family: "Brandon_med";
+  font-size: 20px;
+  padding: 20px;
+}
+li {
+  font-family: "Brandon_med";
+}
+h1 {
+  /* font-family: "GentonaI"; */
+  /* font-family: 'BebasNeueRegular';  */
+  font-size: 100px;
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+}
+h3 {
+  text-align: center;
+}
+h2,
+h3 {
+  font-family: "BebasNeueRegular";
+  font-size: 40px;
+  color: black;
+}
+h4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 20px;
+  font-size: 50px;
+}
+* {
+  font-family: "BebasNeueRegular";
+  box-sizing: border-box;
+}
+.header {
+  background-color: #00ff87;
+  height: 65%;
+  border-radius: 3px;
+  padding: 30px;
+}
+.footer {
+  background-color: #00ff87;
+  width: 100%;
+  height: 50%;
+  border-radius: 3px;
+}
+.header p {
+  text-align: justify;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06),
+    0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: blue;
+}
+
+.what_is_fpl img,
+.what_is_epl img,
+.data_set img,
+.questions img {
+  float: left;
+}
+.data_set {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: rgb(255, 240, 213);
+  width: 80%;
+  height: 80%;
+  border-radius: 8px;
+}
+.what_is_fpl {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: rgb(255, 240, 213);
+  width: 80%;
+  height: 50%;
+  border-radius: 8px;
+}
+
+.what_is_fpl:hover,
+.what_is_epl:hover,
+.data_set:hover,
+.questions:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.container {
+  padding: 2px 16px;
+}
+.question {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: rgb(255, 240, 213);
+  width: 95%;
+  border-radius: 8px;
+}
+.question:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+@font-face {
+  font-family: Elianto-Regular;
+  src: url("./assets/fonts/Elianto-Regular.otf");
+}
+@font-face {
+  font-family: GloberT;
+  src: url("./assets/fonts/GloberT.otf");
+}
+@font-face {
+  font-family: GloberSB;
+  src: url("./assets/fonts/GloberSB.otf");
+}
+@font-face {
+  font-family: GentonaI;
+  src: url("./assets/fonts/GentonaI.otf");
+}
+@font-face {
+  font-family: OstrichSansInline-Regular;
+  src: url("./assets/fonts/OstrichSansInline-Regular.otf");
+}
+@font-face {
+  font-family: Brandon_med;
+  src: url("./assets/fonts/Brandon_med.otf");
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+footer {
+  background-color: #00ff87;
+  text-align: right;
+  padding-right: 35px;
+  padding-top: 10px;
+  border-radius: 5px;
+  font-family: "BebasNeueRegular";
+  padding-bottom: 2px;
+  font-size: 20px;
+  height: 20%;
+  width: 100%;
+  margin: 0px;
+}
+/* img {
+    align:center;   
+    transition: -webkit-transform 0.25s ease;
+}
+
+img:active {
+    -webkit-transform: scale(2);
+} */

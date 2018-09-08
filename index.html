@@ -1,0 +1,281 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebas" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="shortcut icon" type="image/icon" href="favicon.ico" />
+    <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Mirza" rel="stylesheet">
+    <link rel="stylesheet" href="jquery.fancybox.min.css" type="text/css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Contrail+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Teko" rel="stylesheet">
+
+
+    <script src="scrollIt.js" type="text/javascript"></script>
+</head>
+<script>
+    $(function () {
+        $.scrollIt();
+    });
+</script>
+
+<body>
+
+    <div class="topnav">
+        <!-- <p style="font-family:'BebasNeueRegular';float:left;color:blue;padding-left:15px">EzPL</p> -->
+        <!-- <a data-scroll-nav="3" style="float:left;">EzPL</a> -->
+        <a data-scroll-nav="3">ABOUT ME</a>
+        <a data-scroll-nav="2">QUESTIONS</a>
+        <a data-scroll-nav="1">DATA SET</a>
+        <a data-scroll-nav="0">FANTASY FOOTBALL</a>
+
+
+
+    </div>
+
+    <div class="main">
+
+        <!-- <div class="header">
+
+            <img src="./assets/images/premier-league-logo-header.png" style="float:left">
+            <h1>Eazy Premier League</h1>
+            <img src="./assets/images/football2.gif" style="float:right;border-radius: 8px" height="150px" width="150px" />
+            <h6>Welcome to Eazy Premier League, where we make earning FPL points easy for you!!!</h6>
+
+        </div> -->
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container"> <img src="./assets/images/premier-league-logo-header.png" style="float:left">
+                <h1 class="display-4">Eazy Premier League</h1>
+                <p class="lead">Welcome to Eazy Premier League, where we make earning FPL points easy for you!!!</p>
+            </div>
+        </div>
+        <div data-scroll-index="0">
+            <br>
+            <br>
+            <div style="margin:20px;padding:10px" class="what_is_fpl" id="card">
+                <h3>What are fantasy points?</h3>
+
+                <img src="./assets/images/gold_coins.jpg" style="width:200px;height:200px;border-radius:5px;padding:20px"
+                    alt="" />
+                </a>
+                <!-- <img src="gold_coins.jpg"  alt="Fantasy points" style="width:170px;height:150px;background-color:white;border-radius:8px"> -->
+                <p margin="20px" style="padding:20px">Fantasy points may not be gold coins, (may be worth more!) but
+                    they sure are
+                    worth a lot for 42 Million people
+                    playing fantasy games every week. This figure keeps rising every year and is a testament to the
+                    extreme
+                    demand for this sport. It has turned into something every sports enthusiast wants to be part of and
+                    surely
+                    the data pertaining to these sports speak volumes. When coming to fantasy football, it has the
+                    largest
+                    fanbase out there. Every week fans battle out by choosing what they think is the best eleven to
+                    take
+                    part in a global battleground called "Fantasy Premier League". Scoreboards are generated and laymen
+                    turn
+                    into sports and data gurus. Everybody has a say in it and so came about "Eazy Premier League".
+                    Here,
+                    we combine passion with data visualization to provide you with the most important stats.
+                </p>
+            </div>
+            <div data-scroll-index="1">
+                <div class="data_set" style="margin:20px;padding:10px">
+                    <br>
+                    <h3>Data Set</h3>
+                    <a class="grouped_elements" rel="group1" href="pl_cup.jpg">
+                        <img src="./assets/images/pl_cup.jpg" alt="" style="width:200px;height:260px;border-radius:5px;padding:20px">
+                    </a>
+                    <p style="padding:20px">
+                        <a href="https://www.kaggle.com/mauryashubham/english-premier-league-players-dataset">This</a>
+                        is the EPL fantasy premier league data set utilized. The data set consists of the premier
+                        league 17/18 stats of players,clubs and the fpl figures related to them. The Premier League is
+                        the
+                        most-watched sports league in the world, broadcast in 212 territories to 643 million homes and
+                        a
+                        potential TV audience of 4.7 billion people. This data set provides us with FPL stats of 461
+                        players
+                        of the 17/18 English premier league. The goal of this project is to find trends within this
+                        data
+                        set and try to help the customers insight into which players make the biggest impact and yield
+                        the
+                        highest points in one season. The list of columns are :
+                    </p>
+                    <div style="margin-left:200px">
+                        <ul>
+                            <li>Player Name</li>
+                            <li>Club Name</li>
+                            <li>Age</li>
+                            <li>Position</li>
+                            <li>FPL Value (the cost of placing this player in your team)</li>
+                            <li>FPL Selection (the percentage of people selecting this player in their team)</li>
+                            <li>FPL Points (the amount of points accumulated by this player in that year)</li>
+                            <li>Nationality</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-scroll-index="2">
+                <div class="question">
+                    <h3>Questions</h3>
+                    <h4>Q1.1 Which players have the most impact?</h4>
+                    <a data-fancybox="gallery" href="./assets/images/q1_1.jpg" class="center">
+                        <img src="./assets/images/q1_1.jpg" alt="country_fplpoints" style="width:800px;height:600px;text-align: center">
+                    </a>
+                    <p>Right off the bat, we want to know which players make the most impact region wise. By
+                        identifying the
+                        regions which have the highest impact, we can narrow down our search. Seeing the graph, it is
+                        obvious
+                        that English players have the highest impact followed by players from Spain. It is not a
+                        surprise
+                        that English players in the "English Premier League" are dominating. The size of the bars
+                        provide
+                        us with insights into if they are part of the big clubs or not. Let us go deeper into
+                        understanding
+                        the impact of these English players.
+                    </p>
+                </div>
+                <div class="question">
+                    <h4>Q1.2 Which English players have the most impact?</h6>
+                        <a data-fancybox="gallery" href="./assets/images/q1_2.jpg" class="center">
+                            <img src="./assets/images/q1_2.jpg" alt="english_fplpoints" style="width:800px;height:600px;padding:20px">
+                        </a>
+                        <p>After seeing the huge impact of the English players in EPL, we want to learn more about
+                            them. In
+                            the above visualization, we can see that we have now filtered based on the English
+                            nationality
+                            and are displaying the average Fpl points they have gained. The labels presented are the
+                            average
+                            ages in each team. Chelsea, Tottenham and Manchester City have the highest average players
+                            per
+                            English players but there is something interesting with respect to the average ages in each
+                            team.
+                            Let us now see how age impacts the player's performance.
+                            <p style="color:brown">Dont forget to click the graphs to get a better view!</p>
+                        </p>
+                </div>
+                <div class="question">
+                    <h4>Q2.1 Which age group has the most impact?</h4>
+                    <a data-fancybox="gallery" href="q2_1.jpg" class="center">
+                        <img src="./assets/images/q2_1.jpg" style="width:600px;height:600px;padding:20px">
+                    </a>
+                    <p>Age plays a very big part in any sport. Each sport has a different prime age for performance. It
+                        could
+                        range from 19 to even 40(Tiger Woods is 42!). The graph above displays the average ages of all
+                        players
+                        in the EPL with respect to the total FPL points they have gained. You can see that there is
+                        steady
+                        growth starting from 17 to 27 and then a sudden decline. The average age depicted is 27.5 and
+                        peak
+                        being 27. This graph helps us in understanding the criteria for choosing players based on the
+                        age.
+                        Choosing a player in the peak clusters is the best for your team. We see this better in the
+                        next
+                        visualizati
+                    </p>
+                </div>
+                <div class="question">
+                    <h4>Q2.2 Which age group has the most impact and which positions are they in?
+                    </h4>
+                    <a data-fancybox="gallery" href="./assets/images/q2_1_2.png" class="center">
+                        <img src="./assets/images/2_1_2.png" style="width:600px;height:600px;padding:20px">
+                    </a>
+                    <p>This visualization gives a clearer picture of its parent graph. You can see that this time, the
+                        criteria
+                        are given for the position each player plays in. The position category depicts where the player
+                        plays.
+                        As a player reaches the age of 27, it is better to pick a player who is either in the offensive
+                        region
+                        or the midfield. As the player's age increases, offensive players do not pick up as many points
+                        and
+                        is more recommended to pick a goalkeeper or a defensive player. This graph helps us understand
+                        the
+                        different positions with respect to the player's age.
+                    </p>
+                    <ol style="padding:20px; font-size: 20px">
+                        <li style="color: rgb(214,239,231)">Offensive</li>
+                        <li style="color: rgb(167,212,220)">Midfield</li>
+                        <li style="color: rgb(133,183,203)">Defensive</li>
+                        <li style="color: rgb(127,154,181)"> Goalkeeper</li>
+                    </ol>
+                </div>
+                <div class="question">
+                    <h4>Q2.3 Which English players in the best performing age group and with the best fpl value produce
+                        the most
+                        fpl points?
+                    </h4>
+                    <a data-fancybox="gallery" href="./assets/images/q2_2.png" class="center">
+                        <img src="./assets/images/q2_2.png" style="width:600px;height:600px;padding:20px">
+                    </a>
+                    <p>After understanding how important age group and nationality is, we now try to merge the two data
+                        fields
+                        and depict the intersection of these two prime trends. FPL value plays a big role in selection
+                        of
+                        players since many times we might not have sufficient funds to select all the top players we
+                        want.
+                        In this situation ,we would want a low cost high yield player. The green bars depict players
+                        below
+                        the average fpl value. These players are high yield low cost. We can see that in this region
+                        Nathaniel
+                        Clyne, Ryan Bertrand, Androws Townsend and Steve Cook are just few of the best players you can
+                        select.
+                    </p>
+                </div>
+                <div class="question">
+                    <h4>Q3.1 Which positions are getting the highest average points?
+                    </h4>
+                    <a data-fancybox="gallery" href="./assets/images/q3_1.png" class="center">
+                        <img src="./assets/images/q3_1.png" style="width:600px;height:600px;padding:20px">
+                    </a>
+                    <p>We would like to turn our attention to positions once again. This graph helps us visualize the
+                        best positions
+                        with respect to average points. Although average points for AM and SS are the best, we would
+                        like
+                        to see how the graph changes when we change the parameter to the sum of points.
+                    </p>
+                </div>
+                <div class="question">
+                    <h4>Q3.2 Which positions are getting the highest sum of points?
+                    </h4>
+                    <a data-fancybox="gallery" href="./assets/images/q3_2.png" class="center">
+                        <img src="./assets/images/q3_2.png" style="width:600px;height:600px;padding:20px">
+                    </a>
+                    <p>There is a drastic change when we modify the aggregation. Looks like although the average points
+                        for
+                        CB, CF and CM are low , they provide the highest points in total. The average may be low but
+                        there
+                        are some top performers in that position. Lets dive deeper!
+                    </p>
+                </div>
+                <div class="question">
+                    <h4>Q3.3 Which players in those positions are getting the highest average points?
+                    </h4>
+                    <a data-fancybox="gallery" href="./assets/images/q3_3.png" class="center">
+                        <img src="./assets/images/q3_3.png" style="width:600px;height:600px;padding:20px">
+                    </a>
+                    <p>Filtering on the 3 positions ( CB, CF, CM) we see the best players yielding the highest points.
+                        CF and
+                        CB have the same number of players in the cluster (14) and the CM are only 6 although Delle
+                        Alli
+                        leads the number of fpl points. Clustering based on positions helps us pick the best out of
+                        each
+                        and provides us with insights into what our team composition can consist of.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div data-scroll-index="3">
+            <footer>
+
+                <br>
+                <a href="mailto:sashank.tungaturthi@example.com">Sai Sashank Tungaturthi</a>
+                <br> 480-243-6602
+                <br>
+                <a href="https://www.linkedin.com/in/sashank-tungaturthi-206a83147/">linkedin</a>
+            </footer>
+        </div>
+
+</body>
